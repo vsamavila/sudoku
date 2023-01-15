@@ -6,7 +6,7 @@ import static sudoku.problemdomain.SudokuGame.GRID_BOUNDARY;
 
 public class SudokuSolver {
 
-    public statis boolean puzzleIsSolvable(int[][] puzzle){
+    public static boolean puzzleIsSolvable(int[][] puzzle){
         Coordinates[] emptyCells = typeWriterEnumerate(puzzle);
 
         int index = 0;

@@ -88,7 +88,8 @@ public class GameLogic {
                 if (squareIsInvalid(6, 3, grid)) return true;
                 if (squareIsInvalid(6, 6, grid)) return true;
                 return false;
-
+            default:
+                return false;
         }
     }
 
